@@ -1,0 +1,11 @@
+# Define roles for users
+p , user, /api/v1/normal , GET
+p , user, /api/v1/normal , PUT
+
+p , admin, /api/v1/admin , POST
+p , admin, /api/v1/admin , PUT
+p , admin, /api/v1/admin , DELETE
+p , admin, /api/v1/admin , GET
+
+g , akash ,admin
+g,  ashish , user
